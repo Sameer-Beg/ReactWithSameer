@@ -3,6 +3,9 @@ import S1_objDeclaration from './Components/S1_objDeclaration'
 import S2_ReusableComponents from './Components/S2_ReusableComponents'
 import S3_Props from './Components/S3_Props'
 import S4_MoreOnProps from './Components/S4_MoreOnProps'
+import S5_UseState from './Components/S5_UseState'
+import S6_Maps from './Components/S6_Maps'
+import S7_filter from './Components/S7_filter'
 const App = () => {
   return (
     <>
@@ -25,7 +28,19 @@ const App = () => {
       <S4_MoreOnProps title="Sonata" product="Watch" price={2000} />
     </div> */}
 
-    <div className="sam">sameer is good developer  </div>
+    {/* <div className="sam">sameer is good developer  </div> */}
+
+    {/* <div>
+      <S5_UseState/>
+    </div> */}
+
+    {/* <div>
+      <S6_Maps/>
+    </div> */}
+
+    <div>
+      <S7_filter/>
+    </div>
     </>
   )
 }
