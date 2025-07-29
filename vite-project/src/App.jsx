@@ -6,6 +6,10 @@ import S4_MoreOnProps from './Components/S4_MoreOnProps'
 import S5_UseState from './Components/S5_UseState'
 import S6_Maps from './Components/S6_Maps'
 import S7_filter from './Components/S7_filter'
+import S8_UseEffect from './Components/S8_UseEffect'
+import S9_fetch_data_API from './Components/S9_fetch_data_API'
+import S10_MoreOnFetchDataAPI from './Components/S10_MoreOnFetchDataAPI'
+import S11_FormHandling from './Components/S11_FormHandling'
 const App = () => {
   return (
     <>
@@ -38,9 +42,28 @@ const App = () => {
       <S6_Maps/>
     </div> */}
 
-    <div>
+    {/* <div>
       <S7_filter/>
-    </div>
+    </div> */}
+
+      {/* <div>
+        <S8_UseEffect/>
+      </div> */}
+
+      {/* <div>
+        <S9_fetch_data_API/>
+      </div> */}
+
+      {/* <div>
+          <S10_MoreOnFetchDataAPI/>
+      </div> */}
+
+      {/* <div>
+        <S11_FormHandling/>
+      </div> */}
+
+  
+      
     </>
   )
 }
