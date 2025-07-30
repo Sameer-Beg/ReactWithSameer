@@ -10,6 +10,7 @@ import S8_UseEffect from './Components/S8_UseEffect'
 import S9_fetch_data_API from './Components/S9_fetch_data_API'
 import S10_MoreOnFetchDataAPI from './Components/S10_MoreOnFetchDataAPI'
 import S11_FormHandling from './Components/S11_FormHandling'
+import S12_MovieProject from './Components/S12_MovieProject'
 const App = () => {
   return (
     <>
@@ -63,6 +64,9 @@ const App = () => {
       </div> */}
 
   
+        <div>
+          <S12_MovieProject/>
+        </div>
       
     </>
   )
