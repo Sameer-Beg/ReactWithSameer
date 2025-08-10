@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 
 const S11_FormHandling = () => {
-    const [name , setname] = useState('sameerbeg')
+    const [name , setname] = useState('')
     const [email , setemail] = useState('')
     const [password , setpassword] = useState('')
+    const [phone , setPhone] = useState(' ')
+
 
     const handlesubbmit = (e) =>{
         e.preventDefault();
@@ -12,6 +14,8 @@ const S11_FormHandling = () => {
         setname('')
         setemail('')
         setpassword('')
+        setPhone(' ')
+
     }
   return (
     <div>
@@ -19,6 +23,7 @@ const S11_FormHandling = () => {
         name = <input onChange={(e)=>setname(e.target.value)} value={name} type="text" /> <br /><br />
         email = <input onChange={(e)=>setemail(e.target.value)} value={email} type="email" /> <br /> <br />
         pass = <input onChange={(e)=>setpassword(e.target.value)} value={password} type="password" /> <br /><br />
+        phone = <input onChange={(e)=>setPhone(e.target.value)} value={phone} type="text" />
         <button>Submit</button>
       </form>
     </div>

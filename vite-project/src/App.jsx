@@ -60,18 +60,20 @@ const App = () => {
           <S10_MoreOnFetchDataAPI/>
       </div> */}
 
-      {/* <div>
+      <div>
         <S11_FormHandling/>
-      </div> */}
+      </div>
 
   
         {/* <div>
           <S12_MovieProject/>
         </div> */}
 
-        <div>
+        {/* <div>
           <S13_UseEffect/>
-        </div>
+        </div> */}
+
+
       
     </>
   )
